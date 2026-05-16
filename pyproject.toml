@@ -1,0 +1,23 @@
+[project]
+name = "quantic"
+version = "0.1.0"
+description = "A small suffix generator for large numbers & with custom suffix support"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "sm3gm4l0dd0n", email = "rhys.tyler2008@outlook.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+[project.scripts]
+quantic = "quantic.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
